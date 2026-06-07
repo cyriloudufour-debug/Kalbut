@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ma Page Vidéo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/drv2beh.css">
+</head>
+<body>
+
+    <div id="video-container">
+        <div id="rain-container"></div>
+
+        <video id="maVideo" autoplay muted playsinline>
+            <source src="images/titre3.webm" type="video/webm">
+        </video>
+        
+        <button id="unmute-btn" aria-label="Activer/Couper le son">
+            <svg id="icon-muted" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <line x1="23" y1="9" x2="17" y2="15"></line>
+                <line x1="17" y1="9" x2="23" y2="15"></line>
+            </svg>
+            
+            <svg id="icon-unmuted" class="hidden" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+            </svg>
+        </button>
+    </div>
+
+    <div id="site-content" class="hidden">
+        
+        <div id="random-bg-container"></div>
+
+        <div class="section-page">
+            <div class="grid-section-1">
+                <div class="bloc-rouge bloc-1" style="background-color: var(--couleur-bloc-1);">
+                    <div class="images-layered-container">
+                        <div class="vid-wrapper vid-bg">
+                            <video autoplay loop muted playsinline>
+                                <source src="images/video02.webm" type="video/webm">
+                            </video>
+                        </div>
+                        <div class="img-wrapper img-1"><img src="images/Trotooire.PNG" alt="Image 1 (Fond)"></div>
+                        <div class="img-wrapper img-2"><img src="images/Barrière.PNG" alt="Image 2"></div>
+                        <div class="img-wrapper img-3"><img src="images/grue.png" alt="Image 3"></div>
+                        <div class="img-wrapper img-4"><img src="images/taupe.png" alt="Image 4 (Premier plan)"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-page">
+            <div class="grid-section-2">
+                <div class="area-texte-s2">
+                    <h2>Kalbut</h2>
+                    <p> Artiste sculpteur depuis plus de dix ans, Maxime Gesquière, dit “Kalbut”, a réalisé pour la ville de Namur une série de neuf sculptures animalières, réparties aux quatre coins de celle-ci.
+Parmi ces différentes statues, une des plus reconnaissable est certainement René la taupe qui est ici affublée d’un casque de chantier.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-page">
+            <div class="grid-section-3">
+                <div class="bloc-rouge bloc-2" style="background-color: var(--couleur-bloc-2);">
+                    <div class="bloc-2-image">
+    <div class="images-layered-container">
+        <div class="img-wrapper img-5-bg">
+            <img src="images/Fnamur.png" alt="Image 5 - Fond">
+        </div>
+        
+        <div class="img-wrapper img-5-fg">
+            <img src="images/namur.png" alt="Image 5 - Avant-plan">
+        </div>
+    </div>
+</div>
+                    <div class="bloc-2-texte">
+                        <h3>Namur</h3>
+                        <p>Namur est la capitale de la Wallonie située au confluent de la Sambre et de la Meuse.
+Elle est connue pour sa Citadelle, son patrimoine historique riche et une vie culturelle riche.
+En effet de nombreuse activités culturelle y sont tenues durant l’année dont notamment le parcours annuel “Sculpture dans la ville”, à laquelle à participé l’artiste qui nous intéresse en 2025.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-page">
+            <div class="grid-section-4">
+                <div class="area-rouge">
+                    <div class="bloc-rouge bloc-rouge-split bloc-s4" style="background-color: var(--couleur-bloc-3);">
+                        <div class="img-wrapper img-6"><img src="images/héron.png" alt="Image 6"></div>
+                    </div>
+                </div>
+                <div class="area-texte">
+                    <div class="bloc-texte">
+                        <h3>Léon Le Héron</h3>
+                        <p>Léon le héron est une autre sculpture réalisée par l’artiste Kalbut dans le cadre de l’exposition annuelle “Sculptures dans la Ville”. Il est désormais localisé à Salzinnes dans la rue des Bosquets, à proximité de la Maison de repos d’Harscamp (CPAS)</p>
+                    </div>
+                </div>
+                <div class="area-ronds">
+                    <div class="ronds-row">
+                        <div class="rond rond-1"><img src="images/Tige.png" alt=""></div>
+                        <div class="rond rond-2"><img src="images/Plaque.png" alt=""></div>
+                        <div class="rond rond-3"><img src="images/Métal.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-page">
+            <div class="grid-section-5">
+                <div class="area-texte">
+                    <div class="bloc-texte">
+                        <h3>Gérard le Renard</h3>
+                        <p>Gérard le renard est l’une des plus grandes réalisation de Kalbut pour  “Sculptures dans la Ville”.
+
+Il se trouve maintenant à Wépion, sur la chaussée de Dinant, le long de la Meuse, à côté du monument aux Héros des deux Guerres.</p>
+                    </div>
+                </div>
+                <div class="area-rouge">
+                    <div class="bloc-rouge bloc-rouge-split bloc-s5" style="background-color: var(--couleur-bloc-4);">
+                        <div class="img-wrapper img-7"><img src="images/renard.png" alt="Image 7"></div>
+                    </div>
+                </div>
+                <div class="area-ronds">
+                    <div class="ronds-row">
+                        <div class="rond rond-5"><img src="images/Plaque.png" alt=""></div>
+                        <div class="rond rond-6"><img src="images/Métal.png" alt=""></div>
+                        <div class="rond rond-7"><img src="images/Tige.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-page">
+            <div class="grid-section-4"> 
+                <div class="area-rouge">
+                    <div class="bloc-rouge bloc-rouge-split bloc-s6" style="background-color: var(--couleur-bloc-5);">
+                        <div class="img-wrapper img-8"><img src="images/Grenouille.PNG" alt="Image 8"></div>
+                    </div>
+                </div>
+                <div class="area-texte">
+                    <div class="bloc-texte">
+                        <h3>Kadett la Rainette</h3>
+                        <p>Seule amphibienne des neuf sculptures, Kadett la rainette fait partie, avec Victor le pic_vert des plus petites. 
+Elle était auparavant exposée au milieu de la place d’arme avant d’être déplacée à Beez, entre le terminal et le halage de l’avenue Reine Elisabeth</p>
+                    </div>
+                </div>
+                <div class="area-ronds">
+                    <div class="ronds-row">
+                
+                        <div class="rond rond-10"><img src="images/Métal.png" alt=""></div>
+                        <div class="rond rond-11"><img src="images/Tige.png" alt=""></div>
+                        <div class="rond rond-12"><img src="images/Plaque.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-page">
+            <div class="grid-section-5"> 
+                <div class="area-texte">
+                    <div class="bloc-texte">
+                        <h3>Victor le Pic-vert</h3>
+                        <p>Nouvelle sculpture aviaire de Kalbut, Victor le Pic-vert est comme son nom l’indique un pic vert de métal haut de moins d’n mètre de haut.
+A noter qu’une version encore plus réduite de cette oeuvre a été réalisée puis vendue au enchères.
+Il se trouve maintenant à Loyer, à l’angle de la rue Bélair</p>
+                    </div>
+                </div>
+                <div class="area-rouge">
+                    <div class="bloc-rouge bloc-rouge-split bloc-s7" style="background-color: var(--couleur-bloc-6);">
+                        <div class="img-wrapper img-9"><img src="images/pic.png" alt="Image 9"></div>
+                    </div>
+                </div>
+                <div class="area-ronds">
+                    <div class="ronds-row">
+                        <div class="rond rond-13"><img src="images/Plaque.png" alt=""></div>
+                        <div class="rond rond-14"><img src="images/Métal.png" alt=""></div>
+                        <div class="rond rond-15"><img src="images/Tige.png" alt=""></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-page">
+            <div class="grid-section-8">
+                <div class="titre-section-8">
+                    <h2>René La Taupe</h2>
+                </div>
+                
+                <a href="https://www.google.com" target="_blank" class="grande-image-8">
+                    <img src="images/taupe.jpg" alt="Grande image">
+                </a>
+                
+                <div class="grille-4-colonnes">
+                    <div class="colonne-img-txt">
+                        <a href="https://www.google.com" target="_blank" class="img-wrapper img-10"><img src="images/renard.jpg" alt="Image 1"></a>
+                        <p>Gérard le Renard</p>
+                    </div>
+                    <div class="colonne-img-txt">
+                        <a href="https://www.google.com" target="_blank" class="img-wrapper img-11"><img src="images/grenoiuille.jpeg" alt="Image 2"></a>
+                        <p>Kadett la Rainette</p>
+                    </div>
+                    <div class="colonne-img-txt">
+                        <a href="https://www.google.com" target="_blank" class="img-wrapper img-12"><img src="images/pic.jpeg" alt="Image 3"></a>
+                        <p>Victor le Pic-vert</p>
+                    </div>
+                    <div class="colonne-img-txt">
+                        <a href="https://www.google.com" target="_blank" class="img-wrapper img-13"><img src="images/heron.jpeg" alt="Image 4"></a>
+                        <p>Léon Le Héron</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-page interview-section">
+            <div id="interview-rain-container"></div>
+            
+            <div class="grid-interview">
+                <div class="interview-text-block">
+                    <div id="int-name-tag">Kalbut</div>
+                    
+                    <div id="int-dialogue-box">
+                        <div id="int-dialogue-text"></div>
+                        <div id="int-next-arrow">▼</div>
+                    </div>
+                    
+                    <div id="int-progress"></div>
+                    <div id="int-choice-panel"></div>
+                </div>
+                
+                <div class="interview-character-area">
+                    <img id="int-character-img" src="images/perso_neutre.png" alt="Kalbut" />
+                </div>
+            </div>
+        </div>
+</div>
+
+        <!-- footer -->
+    <footer class="site-footer">
+    <div class="footer-creators-bloc">
+        <h4 class="footer-creators-title">Créateurs</h4>
+        <div class="creator-line">
+            <span>Loïc Thys</span>
+            <a href="mailto:loic.thys@student.heaj.be" class="creator-email">loic.thys@student.heaj.be</a>
+        </div>
+        <div class="creator-line">
+            <span>Mathias Jamsin</span>
+            <a href="mailto:Mathias.jamsin@student.heaj.be" class="creator-email">Mathias.jamsin@student.heaj.be</a>
+        </div>
+        <div class="creator-line">
+            <span>Cyril Dufour</span>
+            <a href="mailto:cyril.dufour@student.heaj.be" class="creator-email">cyril.dufour@student.heaj.be</a>
+        </div>
+    </div>
+
+    <div class="footer-right-bloc">
+        <a href="https://kalbutdsgn.com" target="_blank" class="footer-artist-link">Site officiel de Kalbut</a>
+        <div class="footer-copyright">© 2026 — Kalbut </div>
+    </div>
+</footer>
+
+    </div>
+    </div>
+
+    <div id="nav-trigger" class="hidden"></div>
+    <nav class="circular-nav hidden" id="circularNav">
+        <div class="ring ring-4" data-link="contact">
+            <span class="ring-label">contact</span>
+        </div>
+        <div class="ring ring-3" data-link="interview">
+            <span class="ring-label">interview</span>
+        </div>
+        <div class="ring ring-2" data-link="oeuvres">
+            <span class="ring-label">oeuvres</span>
+        </div>
+        <div class="ring ring-1" data-link="accueil">
+            <span class="ring-label">accueil</span>
+        </div>
+
+        <button class="nav-toggle" id="navToggle">
+            <span class="icon-open">+</span> 
+            <span class="icon-close">✕</span>
+        </button>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
